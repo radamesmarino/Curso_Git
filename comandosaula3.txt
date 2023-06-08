@@ -1,0 +1,172 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  pwd
+    5  cd Desktop/
+    6  mk dir proyeto_teste
+    7  mkdir 'pasta nova'
+    8  rm 'pasta nova'
+    9  rm -r 'pasta nova'
+   10  mkdir 'pasta nova'
+   11  rm 'pasta nova' pasta_nova
+   12  ls
+   13  mv 'pasta nova' pasta nova
+   14  mv 'pasta nova' pasta_nova
+   15  ls
+   16  cd pasta_nova/
+   17  touch rada.txt
+   18  cp rada.txt desktop/
+   19  cp rada.txt desktop/
+   20  cd..
+   21  cd..
+   22  cd desktop
+   23  ls
+   24  c..
+   25  cd ~/desktop
+   26  cd pasta_nova
+   27  cp rada.txt ~/desktop/
+   28  cd ~/desktop
+   29  ls 
+   30  cd ~/desktop/
+   31  cat > Iasmina.txt que diz minha bonequinha hermosa
+   32  cat iasmina.txt
+   33  ls
+   34  cat > iasmina.txt
+   35  ls
+   36  exit
+   37  git config --global user.name 'Radames.Marino'
+   38  git config --global user.mail 'radames.marino@gmail.com'
+   39  git congif.user
+   40  git config user.name
+   41  git config user.mail
+   42  git init
+   43  git status
+   44  ls
+   45  clear
+   46  echo '#aprendendo usar o git' > readme.md 
+   47  git status
+   48  ls
+   49  cd..
+   50  history
+   51  f:
+   52  f:7
+   53  f:
+   54  exit
+   55  cd..
+   56  git status
+   57  git.end
+   58  git end
+   59  git --help
+   60  git rm
+   61  git rm help
+   62  git init
+   63  git rm .git/
+   64  gir rm git-dir
+   65  git rm git-dir
+   66  git rm --work-tree
+   67  git exit master
+   68  git finish
+   69  git brench help
+   70  git brench
+   71  git branch -a
+   72  git branch --delete
+   73  git brach --delete radames.marino
+   74  git user.name
+   75  git config user.name
+   76  git branch --delete Radames.Marino
+   77  cd..
+   78  cd..
+   79  ls
+   80  cd d:
+   81  cd f:
+   82  mk dir Curso_Git
+   83  mkdir Curso_Git
+   84  cd Curso_Git
+   85  git config --global user.name 'Radames.Marino'
+   86  git config --global user.mail 'radames.marino@gmail.com'
+   87  git config user.name
+   88  git init
+   89  git status
+   90  echo '#Aprendendo Git' > readme.md
+   91  git status
+   92  git add readme.md 
+   93  git status
+   94  git commit -m 'commit Inicial'
+   95  git config --user.name 'Radames.marino'
+   96  cd f:
+   97  ls
+   98  cd Curso_Git/
+   99  git --config user.name > 'Radames.Marino'
+  100  git config --global user.name 'Radames.Marino'
+  101  git config -- global user.mail radames.marino@gmail.com
+  102  git config --global user.mail 'radames.marino@gmail.com'
+  103  git config user.name
+  104  ~/.ssh
+  105  git init
+  106  echo readme.dm
+  107  ls
+  108  git status
+  109  git add readme.md
+  110  git status
+  111  git commit -m
+  112  git commit -m 'comit_inicial'
+  113  git commit -m 'commit_inicial'
+  114  git commit -a
+  115  git config user.name 'radamesmarino'
+  116  git config user.mail 'radames.marino@gmail.com'
+  117  git user.name
+  118  git commit -m 'commit_inicial'
+  119  git config user.name
+  120  gitconfig user.mail
+  121  git config user.mail
+  122  cd .git
+  123  git config user.name
+  124  cat config
+  125  cd /curso_git
+  126  cd..
+  127  cd curso_git
+  128  cde f:
+  129  cd f:
+  130  cd Curso_Git/
+  131  git config --global user.name 'radamesmarino'
+  132  git config --global user.email 'radames.marino@gmail.com'
+  133  git confi user.name
+  134  git config user.name
+  135  git config user.email
+  136  git commit -m 'commit_xxx'
+  137  ls
+  138  cat >> readme.md
+  139  git push
+  140  git@github.com:radamesmarino/Curso_Git.git 
+  141  cat readme.md
+  142  git push
+  143  cd f:
+  144  cd Curso_Git/
+  145  git config --global user.name 'radamesmarino'
+  146  git config --global user.email 'radames.marino@gmail.com'
+  147  git config user.name
+  148  git init
+  149  git status
+  150  echo '#aprendendo a utilizar git' > readme.md
+  151  git status
+  152  git add.
+  153  git add readme.md
+  154  git commit -m 'primer commit'
+  155  git status
+  156  echo 'segunda modificação no arquivo readme.me' >> readme.md
+  157  git status
+  158  git add .
+  159  echo 'radames marino' > desenvolvedores.txt
+  160  git add .
+  161  git status
+  162  git restore --staged desenvolvedores.txt
+  163  git status
+  164  git restores --staged .
+  165  git status
+  166  git restore --staged .
+  167  git status
+  168  git commit -am 'alteração no arquivo readme.md'
+  169  git add desenvolvedores.txt
+  170  git commit -m .
+  171  git status
+  172  history > 'comandosaula3.txt'
