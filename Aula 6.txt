@@ -1,0 +1,384 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  pwd
+    5  cd Desktop/
+    6  mk dir proyeto_teste
+    7  mkdir 'pasta nova'
+    8  rm 'pasta nova'
+    9  rm -r 'pasta nova'
+   10  mkdir 'pasta nova'
+   11  rm 'pasta nova' pasta_nova
+   12  ls
+   13  mv 'pasta nova' pasta nova
+   14  mv 'pasta nova' pasta_nova
+   15  ls
+   16  cd pasta_nova/
+   17  touch rada.txt
+   18  cp rada.txt desktop/
+   19  cp rada.txt desktop/
+   20  cd..
+   21  cd..
+   22  cd desktop
+   23  ls
+   24  c..
+   25  cd ~/desktop
+   26  cd pasta_nova
+   27  cp rada.txt ~/desktop/
+   28  cd ~/desktop
+   29  ls 
+   30  cd ~/desktop/
+   31  cat > Iasmina.txt que diz minha bonequinha hermosa
+   32  cat iasmina.txt
+   33  ls
+   34  cat > iasmina.txt
+   35  ls
+   36  exit
+   37  git config --global user.name 'Radames.Marino'
+   38  git config --global user.mail 'radames.marino@gmail.com'
+   39  git congif.user
+   40  git config user.name
+   41  git config user.mail
+   42  git init
+   43  git status
+   44  ls
+   45  clear
+   46  echo '#aprendendo usar o git' > readme.md 
+   47  git status
+   48  ls
+   49  cd..
+   50  history
+   51  f:
+   52  f:7
+   53  f:
+   54  exit
+   55  cd..
+   56  git status
+   57  git.end
+   58  git end
+   59  git --help
+   60  git rm
+   61  git rm help
+   62  git init
+   63  git rm .git/
+   64  gir rm git-dir
+   65  git rm git-dir
+   66  git rm --work-tree
+   67  git exit master
+   68  git finish
+   69  git brench help
+   70  git brench
+   71  git branch -a
+   72  git branch --delete
+   73  git brach --delete radames.marino
+   74  git user.name
+   75  git config user.name
+   76  git branch --delete Radames.Marino
+   77  cd..
+   78  cd..
+   79  ls
+   80  cd d:
+   81  cd f:
+   82  mk dir Curso_Git
+   83  mkdir Curso_Git
+   84  cd Curso_Git
+   85  git config --global user.name 'Radames.Marino'
+   86  git config --global user.mail 'radames.marino@gmail.com'
+   87  git config user.name
+   88  git init
+   89  git status
+   90  echo '#Aprendendo Git' > readme.md
+   91  git status
+   92  git add readme.md 
+   93  git status
+   94  git commit -m 'commit Inicial'
+   95  git config --user.name 'Radames.marino'
+   96  cd f:
+   97  ls
+   98  cd Curso_Git/
+   99  git --config user.name > 'Radames.Marino'
+  100  git config --global user.name 'Radames.Marino'
+  101  git config -- global user.mail radames.marino@gmail.com
+  102  git config --global user.mail 'radames.marino@gmail.com'
+  103  git config user.name
+  104  ~/.ssh
+  105  git init
+  106  echo readme.dm
+  107  ls
+  108  git status
+  109  git add readme.md
+  110  git status
+  111  git commit -m
+  112  git commit -m 'comit_inicial'
+  113  git commit -m 'commit_inicial'
+  114  git commit -a
+  115  git config user.name 'radamesmarino'
+  116  git config user.mail 'radames.marino@gmail.com'
+  117  git user.name
+  118  git commit -m 'commit_inicial'
+  119  git config user.name
+  120  gitconfig user.mail
+  121  git config user.mail
+  122  cd .git
+  123  git config user.name
+  124  cat config
+  125  cd /curso_git
+  126  cd..
+  127  cd curso_git
+  128  cde f:
+  129  cd f:
+  130  cd Curso_Git/
+  131  git config --global user.name 'radamesmarino'
+  132  git config --global user.email 'radames.marino@gmail.com'
+  133  git confi user.name
+  134  git config user.name
+  135  git config user.email
+  136  git commit -m 'commit_xxx'
+  137  ls
+  138  cat >> readme.md
+  139  git push
+  140  git@github.com:radamesmarino/Curso_Git.git 
+  141  cat readme.md
+  142  git push
+  143  clear
+  144  git log
+  145  git log pretty=oneline
+  146  git log --pretty=oneline
+  147  git log --stat
+  148  git log -p
+  149  git log --since=2minutes
+  150  git log --since=2.days
+  151  git log --author='radamesmarino'
+  152  git status
+  153  touch teste
+  154  git status
+  155  git commit -m .
+  156  git commit -m 'commit teste cabeça'
+  157  git add teste
+  158  git commit -m 'commit teste cabeça'
+  159  git log
+  160  git log --pretty=oneline
+  161  git reset --soft head
+  162  git log
+  163  git reset --soft HEAD~
+  164  git log
+  165  git commit -m 'commit teste cabeça'
+  166  git log --pretty=oneline
+  167  git reset --hard HEAD~
+  168  git log
+  169  git log --pretty=oneline -p -2
+  170  git log pretty=oneline -p -2
+  171  git log --pretty=oneline -p -2
+  172  git log --pretty=oneline
+  173  git checkout head~~
+  174  git log
+  175  git checkout master
+  176  git log
+  177  mkdir .vscode
+  178  cd .vscode/
+  179  touch config.txt
+  180  cd..
+  181  cd /curso_Git
+  182  cd..
+  183  cd f:
+  184  cd Curso_Git/
+  185  echo './vscode' gitignore
+  186  ls ./vscode
+  187  git status
+  188  echo '.vscode/' > gitignore
+  189  git status
+  190  touch personal.txt .vscode/
+  191  ls .vscode/
+  192  git status
+  193  echo personal.txt >> gitignore
+  194  git status
+  195   echo '.vscode/' > .gitignore
+  196  git status
+  197  rm gitignore
+  198  git status
+  199  echo 'personal.txt' >> .gitignore
+  200  git status
+  201  history > aula4.txt
+  202  git add.
+  203  git add .
+  204  git log p-2
+  205  git log -p -2
+  206  git commit -m .
+  207  git branch
+  208  git checkout -b feature
+  209  git branch
+  210  toucho novafeature
+  211  touch novafeature
+  212  git add novafeature
+  213  git commit -m .
+  214  git status
+  215  git log 
+  216  git checkout master
+  217  git log 
+  218  git checkout -b feature2 feature
+  219  git log
+  220  git brach -d feature2
+  221  git branch -d feature2
+  222  git checkout feature
+  223  git branch -d feature2
+  224  git log
+  225   git checkout master
+  226  git branch
+  227  git rebase
+  228  git merge
+  229  git merge feature
+  230  git branch
+  231  git log --pretty=oneline
+  232  git rebase feature
+  233  git log --pretty=oneline
+  234  git reset hard HEAT~~
+  235  git log --pretty=oneline
+  236  history aula5.txt
+  237  history > aula5.txt
+  238  q
+  239  exit
+  240  cd f:
+  241  cd Curso_Git/
+  242  git bracnh
+  243  git branch
+  244  git branch -d feature
+  245  git checkout -b Feature
+  246  echo Nova_Feature.txt
+  247  git add Nova_Feature.txt
+  248  git status
+  249  touch novafeature
+  250  git status
+  251  touch Nova_Feature
+  252  git status
+  253  git add .
+  254  git status
+  255  git commit -m .
+  256  git branch master
+  257  git checkout master
+  258  git log --pretty=oneline
+  259  git checkout feature
+  260  git log --pretty=oneline
+  261  git branch -d feature
+  262  git checkout master
+  263  git branch -d feature
+  264  'git branch -D feature'
+  265  git branch -D feature
+  266  git log --pretty=oneline
+  267  git reset 
+  268  git log --pretty=oneline
+  269  git reset soft=head~
+  270  git reset -soft head~
+  271  git reset --soft HEAD~
+  272  git status
+  273  rm novafeature
+  274  git log --pretty=oneline
+  275  git branch Nova_Feature
+  276  git log 
+  277  git branch -D Nova_Feature 
+  278  git log
+  279  git log --pretty=oneline
+  280  git checkout Nova_feature
+  281  git branch
+  282  git checkout NovaFeature
+  283  git checkout -b Feature
+  284  echo novafeature.txt
+  285  git status
+  286  rm novafeature
+  287  touch novafeature
+  288  git log --pretty=oneline
+  289  git status
+  290  git branch
+  291  git status
+  292  git add novafeature
+  293  git commite -m 'Adicionando nova feature'
+  294  git log --pretty=oneline
+  295  git commit -m 'Adicionando Nova Feature'
+  296  git log --pretty=oneline
+  297  git log
+  298  git checkout master
+  299  git status
+  300  git log
+  301  git reset --soft Head~
+  302  git status
+  303  git commit -m 'comandos Aula4 git ignore'
+  304  git log
+  305  git checkout
+  306  git check out -b novafeature feature
+  307  git checkout feature
+  308  git checkout -b novafeature master
+  309  git log
+  310  git checkout master
+  311  git branch
+  312  git checkout -d novafeature
+  313  git branch
+  314  git branch -d feature2
+  315  git branch -d nova feature
+  316  git branch -d novafeature
+  317  git branch
+  318  git status
+  319  cd f:
+  320  cd Curso_Git/
+  321  git checkout master
+  322  git branc
+  323  ]git branch
+  324  git branch
+  325  git checkout feature
+  326  git status
+  327  touch Nova_Feature
+  328  git status
+  329  git add Nova_Feature
+  330  git add 'Nova_Feature'
+  331  git status
+  332  git commit -m 'Primer Arquivo'
+  333  git log
+  334  git log --pretty=oneline
+  335  git reset --hard HEAD~
+  336  git log --prety=oneline
+  337  git log --pretty=oneline
+  338  git chekout master
+  339  git log
+  340  git checkout master
+  341  git log --pretty=oneline
+  342  touch 'Adicionando Continuacao.txt'
+  343  git add 'Adicionando Continuacao.txt'
+  344  git status
+  345  git commit -m Master_continuacao
+  346  git log --prety=oneline
+  347  git log --pretty=oneline
+  348  git checkout feature
+  349  git log --pretty=oneline
+  350  git checkout -b Feature2 master
+  351  git log
+  352  git checkout master
+  353  git checkout -d Feature2
+  354  git checkout master
+  355  git branch -d Feature2
+  356  cd f:
+  357  cd Curso_Git/
+  358   git config alias.logpg --pretty=oneline --graph
+  359  git logpg
+  360  git config alias.logpg 'log --pretty=oneline --graph'
+  361  git logpg
+  362  git config --global alias.gitpg 'log --pretty.oneline --graph'
+  363  git tag
+  364  git tag -a v. -m 'até a aula '
+  365  git tag -a v0.1 -m 'Ate aula 5'
+  366  git logpg
+  367  git rebase feature
+  368  git logpg
+  369  git reset --hard HEAD~
+  370  git checkout feature
+  371  git tag -a v0.1 -m 'Até aula 5'
+  372  git logpg
+  373  git status
+  374  git checkout master
+  375  gei rebase feature
+  376  git rebase feature
+  377  git logpg
+  378  git tag
+  379  git tag -d v0.1
+  380  git tag -a v0.1 -m 'Ate aula 5'
+  381  git logpg
+  382  history > aula 6
+  383  git add aula 6
+  384  history > 'Aula 6.txt'
