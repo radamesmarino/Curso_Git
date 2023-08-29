@@ -1,0 +1,30 @@
+SELECT cliente.nome AS dependente, cliente_principal.nome AS cliente_principal
+FROM cliente_conta
+JOIN cliente ON cliente_conta.id_cliente = cliente.id
+JOIN cliente AS cliente_principal ON cliente_conta.id_conta = cliente_principal.id
+WHERE cliente_conta.dependente = 1;
+
+------------------------------------------------------------------------------------
+
+select id_cliente_conta, count(id_cliente_conta) as transacoes
+from transacao
+group by id_cliente_conta
+order by transacoes desc
+limit 5
+
+select id_cliente_conta, count(id_cliente_conta) as transacoes
+from transacao
+group by id_cliente_conta
+order by transacoes asc
+limit 5
+
+-------------------------------------------------------------------------------------
+
+SELECT id_cliente_conta, SUM(
+    CASE
+        WHEN id_tipo_transacao IN (1) THEN valor
+        WHEN id_tipo_transacao IN (2, 3, 4) THEN -valor
+    END
+) AS saldo_total
+FROM transacao
+GROUP BY id_cliente_conta;
